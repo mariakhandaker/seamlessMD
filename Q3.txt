@@ -1,0 +1,8 @@
+describe('scheduling software', () => {
+  it('should send out email at 2PM Sunday for appointment 2PM Monday')
+  it('should not send out email if no appointment has been booked')
+  it('should not let patient book a time slot that is already filled')
+  it('should not allow patient to book multiple slots in one day')
+  it('should allow patient to book appointment and confirm email')
+  it('should not allow patient to view doctor's schedule')
+})
